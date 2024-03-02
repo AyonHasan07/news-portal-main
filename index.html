@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    <!-- daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script src="https://kit.fontawesome.com/192b89946a.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-[#f2f3f4]"> 
+    <header class="w-11/12 mx-auto">
+         <!--nav bar  -->
+        <div class="navbar bg-[#f2f3f4] border-b p-4">
+            <div class="flex-1">
+              <a class="btn btn-ghost text-xl text-[#5D5FEF]"> <span class="bg-[#5D5FEF] text-white p-2 rounded-lg">News</span>     Portal</a>
+            </div>
+            <div class="flex-none gap-2">
+              <!-- <div class="form-control">
+                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+              </div> -->
+
+              <div class="flex justify-start items-center gap-4">
+                <p class="text-[#5D5FEF] ">News</p>
+                <p class="">Blog</p>
+              </div>
+              <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                  <div class="w-10 rounded-full">
+                    <img alt="Tailwind CSS Navbar component" src="avatar.png" />
+                  </div>
+                </div>
+                <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                  <li>
+                    <a class="justify-between">
+                      Profile
+                      <span class="badge">New</span>
+                    </a>
+                  </li>
+                  <li><a>Settings</a></li>
+                  <li><a>Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <main class="w-11/12 mx-auto">
+        <div id="category-container" class=" flex justify-around">
+            
+        </div>
+
+        <div class="bg-[#FFFFFF] p-4 my-10">
+            <p class="">4 items found for category Entertainment</p>
+        </div>
+
+        <!-- news -->
+        <div class="news-container" id="news-container">
+            <!-- hero -->
+            
+        </div>
+    </main>
+    <footer class="bg-[#FFFFFF] my-10 p-10 flex justify-center items-center">
+      <p class="  text-[#949494] ">Copyright 2021 News Portal</p>
+    </footer>
+
+
+   
+  <script src="index.js"></script>  
+</body>
+</html>
